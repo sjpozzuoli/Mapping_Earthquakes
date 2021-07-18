@@ -106,8 +106,8 @@ style: styleInfo,
 
   legend.onAdd = function() {  
       let div = L.DomUtil.create('div', 'info legend'),
-        const magnitudes = [0, 1, 2, 3, 4, 5];
-        const colors = [
+        magnitudes = [0, 1, 2, 3, 4, 5];
+        colors = [
           "#98ee00",
           "#d4ee00",
           "#eecc00",
